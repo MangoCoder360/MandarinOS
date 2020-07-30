@@ -64,7 +64,7 @@ time.sleep(1.5)
 print 'Booting MANDARIN-OS-MEDIA in SYSINT-MNDRN_SATA-HD'
 print ''
 time.sleep(2)
-print 'MANDARIN OS >>> Welcome to Mandarin OS, your system is starting!'
+print 'MANDARIN OS >>> Welcome to Mandarin OS, your system is starting! Get ready!'
 time.sleep(3)
 setup = 0
 init()
