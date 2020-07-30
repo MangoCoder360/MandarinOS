@@ -1,12 +1,17 @@
 from easygui import *
 from time import *
+#import webbrowser
+
+"""def SunriverCam():
+	webbrowser.open('https://www.tripcheck.com/roadcams/cams/LavaButte_pid631.jpg')
+	desktop()"""
 
 def desktop():
-	msgbox('Hello there, I am the computer I am here to tell you that this is as far as the program will go for a while,','Desktop')
-	msgbox('My programmers are stumped at how to create a functional desktop with apps and everything, so please note there will be no desktop for quite a while.','Desktop')
+	"""appOptions = ['SunriverCam', 'Shutdown']
+	appToOpen = buttonbox("Choose an app to open!", choices = appOptions)
+	if appToOpen == "SunriverCam":
+		SunriverCam()"""
+	msgbox("No apps avalible, sorry.",'Desktop')
 
 msgbox("Welcome to Mandarin OS, your system is starting!","System Boot Wizard")
-sleep(0.5)
-msgbox("Loading, please wait...","System Boot Wizard")
-sleep(1)
 desktop()
