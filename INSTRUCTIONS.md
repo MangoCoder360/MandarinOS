@@ -1,12 +1,12 @@
 # Windows Instructions
-1. Download the MandarinOS Windows.zip file
+1. Download the MandarinOS Windows Installer.zip file
 2. Extract the zip file
-3. Create a folder where you would like Mandarin OS to store its files
-4. Put main.exe and ActivationTool.exe in that folder
-5. Run ActivationTool.exe
-6. Enter your serial number (Contact me to get one)
-6. To start Mandarin OS, run main.exe
-7. Enjoy!
+3. Open new folder
+4. Run INSTALLER (Allow admin permissions)
+5. On your desktop, run LicenceActivator
+6. Enter your serial number
+6. To start Mandarin OS, run MandarinOS
+7. Enjoy! (You can delete the installer files)
 
 # Mac Instructions
 1. Download the MandarinOS Mac.zip file
