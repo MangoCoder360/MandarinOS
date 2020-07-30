@@ -19,9 +19,15 @@ def setupWizard():
     pickle.dump(set_up, accnt_status)
     accnt_status.close()
 
+def SunriverCam():
+    webbrowser.open('https://www.tripcheck.com/roadcams/cams/LavaButte_pid631.jpg')
+    desktop()
+
 def desktop():
-    easygui.msgbox('Hello there, I am the computer I am here to tell you that this is as far as the program will go for a while,','Desktop')
-    easygui.msgbox('My programmers are stumped at how to create a functional desktop with apps and everything, so please note there will be no desktop for quite a while.','Desktop')
+    appOptions = ['SunriverCam', 'Shutdown']
+    appToOpen = easygui.buttonbox("Choose an app to open!", choices = appOptions)
+    if appToOpen == "SunriverCam":
+        SunriverCam()
     
 def loginWizard():
     usr_enter = easygui.enterbox('Please enter your username','Login Wizard')
@@ -38,6 +44,7 @@ def loginWizard():
 import easygui
 import pickle
 import time
+import webbrowser
 print 'Checking Files'
 time.sleep(0.2)
 print 'Verifing Checksum'
@@ -47,16 +54,16 @@ time.sleep(0.5)
 print 'Starting Pre-boot sequence'
 time.sleep(0.5)
 print 'Initializing Boot Sequence'
-time.sleep(1.2)
+time.sleep(1)
 print 'Checking HD-RW-HS CD-ROM'
 time.sleep(0.2)
 print 'Checking SYSINT-MNDRN_SATA-HD'
 time.sleep(0.2)
 print 'Reading data in SYSINT-MNDRN_SATA-HD'
-time.sleep(1.8)
+time.sleep(1.5)
 print 'Booting MANDARIN-OS-MEDIA in SYSINT-MNDRN_SATA-HD'
 print ''
-time.sleep(2.5)
+time.sleep(2)
 print 'MANDARIN OS >>> Welcome to Mandarin OS, your system is starting!'
 time.sleep(3)
 setup = 0
