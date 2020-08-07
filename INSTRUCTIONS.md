@@ -11,5 +11,5 @@
 # Mac Instructions
 1. Download the MandarinOS Mac.zip file
 2. Extract the zip file
-3. Run main.exe to start Mandarin OS
+3. Run main.app to start Mandarin OS
 4. Enjoy!
