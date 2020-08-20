@@ -45,6 +45,7 @@ import easygui
 import pickle
 import time
 import webbrowser
+import updateCheck
 print 'Checking Files'
 time.sleep(0.2)
 print 'Verifing Checksum'
@@ -67,6 +68,7 @@ time.sleep(2)
 print 'MANDARIN OS >>> Welcome to Mandarin OS, your system is starting! Get ready!'
 time.sleep(3)
 setup = 0
+currentVer = "1.0.7"
 init()
 if setup == False:
     setupWizard()
