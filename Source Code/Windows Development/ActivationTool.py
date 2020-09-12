@@ -1,5 +1,7 @@
 import easygui
 import pickle
+import elevate
+elevate.elevate()
 def activate():
     setup = False
     accnt_status = open('accnt_status.pkl','w')

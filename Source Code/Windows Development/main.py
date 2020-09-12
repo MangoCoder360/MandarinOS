@@ -1,8 +1,11 @@
 def init():
-    global setup
-    accnt_status = open('accnt_status.pkl','r')
-    setup = pickle.load(accnt_status)
-    accnt_status.close()
+    try:
+        global setup
+        accnt_status = open('accnt_status.pkl','r')
+        setup = pickle.load(accnt_status)
+        accnt_status.close()
+    except:
+        easygui.msgbox('Please activate the software using the provided activation tool','Mandarin Bootloader Managment Console')
 
 def setupWizard():
     global setup1
@@ -46,6 +49,8 @@ import pickle
 import time
 import webbrowser
 import updateCheck
+import elevate
+elevate.elevate()
 print 'Checking Files'
 time.sleep(0.2)
 print 'Verifing Checksum'
@@ -62,15 +67,14 @@ print 'Checking SYSINT-MNDRN_SATA-HD'
 time.sleep(0.2)
 print 'Reading data in SYSINT-MNDRN_SATA-HD'
 time.sleep(1.5)
-print 'Booting MANDARIN-OS-MEDIA in SYSINT-MNDRN_SATA-HD'
-print ''
+print 'Booting MANDARIN-OS-MEDIA in SYSINT-MNDRN_SATA-HD\n'
 time.sleep(2)
 print 'MANDARIN OS >>> Welcome to Mandarin OS, your system is starting! Get ready!'
-time.sleep(3)
-setup = 0
-currentVer = "1.0.7"
+time.sleep(1)
+currentVer = "1.0.8"
+setup = None
 init()
 if setup == False:
     setupWizard()
-else:
+elif setup == True:
     loginWizard()
