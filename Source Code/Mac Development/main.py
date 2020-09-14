@@ -11,7 +11,7 @@ def desktop():
 	appToOpen = buttonbox("Choose an app to open!", choices = appOptions)
 	if appToOpen == "SunriverCam":
 		SunriverCam()"""
-	msgbox("No apps avalible, sorry.",'Desktop')
+	msgbox("No apps avalible, sorry. Check back later",'Desktop')
 
 msgbox("Welcome to Mandarin OS, your system is starting!","System Boot Wizard")
 desktop()
