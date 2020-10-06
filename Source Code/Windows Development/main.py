@@ -51,23 +51,6 @@ import webbrowser
 import updateCheck
 import elevate
 elevate.elevate()
-print 'Checking Files'
-time.sleep(0.2)
-print 'Verifing Checksum'
-time.sleep(1)
-print 'Initializing BIOS'
-time.sleep(0.5)
-print 'Starting Pre-boot sequence'
-time.sleep(0.5)
-print 'Initializing Boot Sequence'
-time.sleep(1)
-print 'Checking HD-RW-HS CD-ROM'
-time.sleep(0.2)
-print 'Checking SYSINT-MNDRN_SATA-HD'
-time.sleep(0.2)
-print 'Reading data in SYSINT-MNDRN_SATA-HD'
-time.sleep(1.5)
-print 'Booting MANDARIN-OS-MEDIA in SYSINT-MNDRN_SATA-HD\n'
 time.sleep(2)
 print 'MANDARIN OS >>> Welcome to Mandarin OS, your system is starting! Get ready!'
 time.sleep(1)
