@@ -54,7 +54,6 @@ elevate.elevate()
 time.sleep(2)
 print 'MANDARIN OS >>> Welcome to Mandarin OS, your system is starting! Get ready!'
 time.sleep(1)
-currentVer = "1.0.8"
 setup = None
 init()
 if setup == False:
