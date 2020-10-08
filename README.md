@@ -1,5 +1,7 @@
 # Mandarin OS
-This is a expirimental operating system based as an application. And also, READ THE INSTRUCTIONS!
+MandarinOS is a project to create an operating system that supports Windows and MacOS applications for a seamless workflow.
+
+We are starting off by making it as an application to see what it will be like before we make the operating system.
 
 # News!
 Make sure you follow Mandarin Technologies on Twitter!  https://twitter.com/Mandarin897
