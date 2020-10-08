@@ -27,10 +27,13 @@ def SunriverCam():
     desktop()
 
 def desktop():
-    appOptions = ['SunriverCam', 'Shutdown']
+    appOptions = ['SunriverCam', "Update Checker", 'Shutdown']
     appToOpen = easygui.buttonbox("Choose an app to open!", choices = appOptions)
     if appToOpen == "SunriverCam":
         SunriverCam()
+    if appToOpen == "Update Checker":
+        updateCheck(sysVer)
+        desktop()
     
 def loginWizard():
     usr_enter = easygui.enterbox('Please enter your username','Login Wizard')
@@ -48,11 +51,11 @@ import easygui
 import pickle
 import time
 import webbrowser
-import updateCheck
+from updateCheck import updateCheck
 import elevate
 elevate.elevate()
-sysVer = 1.1.0
-time.sleep(2)
+sysVer = "1.1.0\n" # Newline character required due to github file structure
+time.sleep(1)
 print 'MANDARIN OS >>> Welcome to Mandarin OS, your system is starting! Get ready!'
 time.sleep(1)
 setup = None
