@@ -34,7 +34,7 @@ def desktop():
     if appToOpen == "Update Checker":
         updateCheck(sysVer)
         desktop()
-    
+
 def loginWizard():
     usr_enter = easygui.enterbox('Please enter your username','Login Wizard')
     pss_enter = easygui.enterbox('Please enter your password','Login Wizard')
@@ -54,7 +54,7 @@ import webbrowser
 from updateCheck import updateCheck
 import elevate
 elevate.elevate()
-sysVer = "1.1.0\n" # Newline character required due to github file structure
+sysVer = "1.1.1\n" # Newline character required due to github file structure
 time.sleep(1)
 print 'MANDARIN OS >>> Welcome to Mandarin OS, your system is starting! Get ready!'
 time.sleep(1)
