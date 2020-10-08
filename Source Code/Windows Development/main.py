@@ -51,6 +51,7 @@ import webbrowser
 import updateCheck
 import elevate
 elevate.elevate()
+sysVer = 1.1.0
 time.sleep(2)
 print 'MANDARIN OS >>> Welcome to Mandarin OS, your system is starting! Get ready!'
 time.sleep(1)
