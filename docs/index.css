@@ -1,9 +1,5 @@
-body {
-  font-family: Comfortaa;
-}
-h1 {
-  text-align: center;
-}
+body {font-family: Comfortaa;}
+h1 {text-align: center;}
 #navbarUL {
   list-style-type: none;
   margin: 0;
@@ -11,9 +7,7 @@ h1 {
   overflow: hidden;
   background-color: #333;
 }
-#navbarLI {
-  float: left;
-}
+#navbarLI {float: left;}
 #navbarA {
   display: block;
   color: white;
@@ -21,6 +15,4 @@ h1 {
   padding: 14px 16px;
   text-decoration: none;
 }
-#navbarA:hover {
-  background-color: #4CAF50;
-}
+#navbarA:hover {background-color: #ffa500;}
