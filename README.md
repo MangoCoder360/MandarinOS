@@ -12,6 +12,4 @@ You can reach Reuben (Lead developer/CEO) at [mangocoder360@mandarintechnologies
 # News!
 Make sure you follow Mandarin Technologies on Twitter!  https://twitter.com/Mandarin897
 
-You can now find old releases without digging into the commits!
-
-We are making a changelog! We will only add newer updates not old ones.
+Check out our website!  https://www.mandarintechnologies.ml
