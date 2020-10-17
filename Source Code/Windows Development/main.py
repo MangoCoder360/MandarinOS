@@ -56,7 +56,7 @@ import elevate
 elevate.elevate()
 sysVer = "1.1.1\n" # Newline character required due to github file structure
 time.sleep(1)
-print 'MANDARIN OS >>> Welcome to Mandarin OS, your system is starting! Get ready!'
+print('MANDARIN OS >>> Welcome to Mandarin OS, your system is starting! Get ready!')
 time.sleep(1)
 setup = None
 init()
