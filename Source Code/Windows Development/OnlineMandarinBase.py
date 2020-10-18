@@ -3,7 +3,7 @@ import pymongo
 import easygui
 import pickle
 import time
-import webbrowser
+import subprocess
 client = pymongo.MongoClient("mongodb://MangoCoder360:mangomongo321@cluster0-shard-00-00.vckzv.mongodb.net:27017,cluster0-shard-00-01.vckzv.mongodb.net:27017,cluster0-shard-00-02.vckzv.mongodb.net:27017/Cluster0?ssl=true&replicaSet=atlas-e8h9oi-shard-0&authSource=admin&retryWrites=true&w=majority")
 db = client["WindowsApp"]
 coll = db["Users"]
@@ -17,7 +17,12 @@ if loginOption == "Login to existing account":
     realPassword = data["password"]
     if realPassword == password:
         easygui.msgbox('You have been signed in sucsesfully! Please wait while we retrive your user data...')
-        #WORK IN PROGRESS
+        activatedRaw = coll.find({"username":username}, {"activated": 1, "_id": 0})
+        for i in activatedRaw: activated = i
+        if activated == True:
+            subprocess.call("OnlineMandarinDesktop.py", shell=True)
+        else:
+            easygui.msgbox('Your account has not been activated. Please activate your account using the tool on the main menu.')
     else:
         easygui.msgbox('Invalid Password!')
 if loginOption == "Create an account":
