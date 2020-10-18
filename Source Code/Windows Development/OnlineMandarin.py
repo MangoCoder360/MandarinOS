@@ -30,7 +30,6 @@ if loginOption == "Create an account":
         easygui.msgbox('No accounts have been created')
 if loginOption == "Activate an existing account":
     username = easygui.enterbox("Enter your username:")
-    password = easygui.enterbox("Enter your password:")
     serialKey = easygui.enterbox('Enter your serial number:')
     keyColl = db["SerialNumbers"]
     #WORK IN PROGRESS!
