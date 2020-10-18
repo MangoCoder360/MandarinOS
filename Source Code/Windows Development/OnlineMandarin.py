@@ -7,7 +7,7 @@ import webbrowser
 client = pymongo.MongoClient("mongodb://MangoCoder360:mangomongo321@cluster0-shard-00-00.vckzv.mongodb.net:27017,cluster0-shard-00-01.vckzv.mongodb.net:27017,cluster0-shard-00-02.vckzv.mongodb.net:27017/Cluster0?ssl=true&replicaSet=atlas-e8h9oi-shard-0&authSource=admin&retryWrites=true&w=majority")
 db = client["WindowsApp"]
 coll = db["Users"]
-print("Connected to MongoDB User Servers!")
+print("Connected to MongoDB WindowsApp Server!")
 loginOption = easygui.buttonbox("Welcome to MandarinOS Online! We are connected to MongoDB and are ready to start!", choices = ["Login to existing account", "Create an account", "Activate an account"])
 if loginOption == "Login to existing account":
     username = easygui.enterbox("Enter your username:")
