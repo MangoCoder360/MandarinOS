@@ -32,4 +32,12 @@ if loginOption == "Activate an existing account":
     username = easygui.enterbox("Enter your username:")
     serialKey = easygui.enterbox('Enter your serial number:')
     keyColl = db["SerialNumbers"]
-    #WORK IN PROGRESS!
+    allKeys = keyColl.find({})
+    validKeys = []
+    for i in allKeys: validKeys.append(i["serialNumber"])
+    if serialKey in validKeys:
+        easygui.msgbox('Your serial number has been verified, please wait while we activate your account...')
+        coll.update_one({"username":username},{'$set':{"activated":True}})
+        easygui.msgbox('Your account has been activated! You can close this windows and sign in now!')
+    else:
+        easygui.msgbox('Your serial number is invalid!')
