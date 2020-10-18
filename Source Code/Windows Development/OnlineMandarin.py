@@ -17,8 +17,9 @@ if loginOption == "Login to existing account":
     realPassword = data["password"]
     if realPassword == password:
         easygui.msgbox('You have been signed in sucsesfully! Please wait while we retrive your user data...')
+        #WORK IN PROGRESS
     else:
-        easygui.msgbox('We could not find your account :(')
+        easygui.msgbox('Invalid Password!')
 if loginOption == "Create an account":
     username = easygui.enterbox("Choose a username:")
     password = easygui.enterbox("Choose a password:")
