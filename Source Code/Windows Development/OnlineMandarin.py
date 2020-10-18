@@ -8,7 +8,7 @@ client = pymongo.MongoClient("mongodb://MangoCoder360:mangomongo321@cluster0-sha
 db = client["WindowsApp"]
 coll = db["Users"]
 print("Connected to MongoDB WindowsApp Server!")
-loginOption = easygui.buttonbox("Welcome to MandarinOS Online! We are connected to MongoDB and are ready to start!", choices = ["Login to existing account", "Create an account", "Activate an account"])
+loginOption = easygui.buttonbox("Welcome to MandarinOS Online! We are connected to MongoDB and are ready to start!", choices = ["Login to existing account", "Create an account", "Activate an existing account"])
 if loginOption == "Login to existing account":
     username = easygui.enterbox("Enter your username:")
     password = easygui.enterbox("Enter your password:")
@@ -28,7 +28,7 @@ if loginOption == "Create an account":
         easygui.msgbox('Your account has been created sucesfully!')
     else:
         easygui.msgbox('No accounts have been created')
-if loginOption == "Activate an account":
+if loginOption == "Activate an existing account":
     username = easygui.enterbox("Enter your username:")
     password = easygui.enterbox("Enter your password:")
     serialKey = easygui.enterbox('Enter your serial number:')
