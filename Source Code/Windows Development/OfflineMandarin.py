@@ -30,7 +30,8 @@ def desktop():
     appOptions = ['SunriverCam', "Update Checker", 'Shutdown']
     appToOpen = easygui.buttonbox("Choose an app to open!", choices = appOptions)
     if appToOpen == "SunriverCam":
-        SunriverCam()
+        easygui.msgbox('ERROR: You can not use any apps that require a internet connection becuase you are using OFFLINE MODE','ERROR')
+        desktop()
     if appToOpen == "Update Checker":
         easygui.msgbox('ERROR: You can not use any apps that require a internet connection becuase you are using OFFLINE MODE','ERROR')
         desktop()
