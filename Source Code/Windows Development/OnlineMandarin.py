@@ -23,7 +23,7 @@ if loginOption == "Create an account":
     username = easygui.enterbox("Choose a username:")
     password = easygui.enterbox("Choose a password:")
     if easygui.ccbox("Are you sure you would like to create your account?") == True:
-        record2send = {"username":username, "password":password}
+        record2send = {"username":username, "password":password, 'activated':False}
         coll.insert_one(record2send)
         easygui.msgbox('Your account has been created sucesfully!')
     else:
