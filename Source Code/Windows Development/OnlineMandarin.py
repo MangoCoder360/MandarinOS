@@ -32,5 +32,5 @@ if loginOption == "Activate an account":
     username = easygui.enterbox("Enter your username:")
     password = easygui.enterbox("Enter your password:")
     serialKey = easygui.enterbox('Enter your serial number:')
-    #WORK IN PROGRESS
-    #NOT FINISHED
+    keyColl = db["SerialNumbers"]
+    #WORK IN PROGRESS!
