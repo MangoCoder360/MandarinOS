@@ -13,3 +13,5 @@ You can reach Reuben (Lead developer/CEO) at [mangocoder360@mandarintechnologies
 Make sure you follow Mandarin Technologies on Twitter!  https://twitter.com/Mandarin897
 
 Check out our website!  https://www.mandarintechnologies.ml
+
+Look at the Getting Started guides if you need any help!
