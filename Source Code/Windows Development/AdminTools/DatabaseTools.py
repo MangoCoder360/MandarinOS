@@ -1,6 +1,6 @@
 import easygui
 import pymongo
-client = pymongo.MongoClient("mongodb://MangoCoder360:mangomongo321@cluster0-shard-00-00.vckzv.mongodb.net:27017,cluster0-shard-00-01.vckzv.mongodb.net:27017,cluster0-shard-00-02.vckzv.mongodb.net:27017/Cluster0?ssl=true&replicaSet=atlas-e8h9oi-shard-0&authSource=admin&retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://MangoCoder360:mangomongo321@cluster0.vckzv.mongodb.net/WindowsApp?retryWrites=true&w=majority")
 bttnChs = ["Get password by username", "Create serial number"]
 tool = easygui.buttonbox("Choose a tool to use", choices = bttnChs)
 if tool == "Get password by username":
