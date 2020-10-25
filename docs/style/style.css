@@ -16,3 +16,8 @@ h1 {text-align: center;}
   text-decoration: none;
 }
 #navbarA:hover {background-color: #ffa500;}
+iframe {
+  border: 0;
+  width: 150px;
+  height: 150px;
+}
