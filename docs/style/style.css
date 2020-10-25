@@ -1,23 +1,23 @@
 body {font-family: Comfortaa;}
 h1 {text-align: center;}
-#navbarUL {
+.navbarUL {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
 }
-#navbarLI {float: left;}
-#navbarA {
+.navbarLI {float: left;}
+.navbarA {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-#navbarA:hover {background-color: #ffa500;}
+.navbarA:hover {background-color: #ffa500;}
 iframe {
   border: 0;
-  width: 150px;
-  height: 150px;
+  width: 280px;
+  height: 180px;
 }

@@ -10,18 +10,19 @@
 </head>
 <body onload="hideLoader()">
 
-  <ul id="navbarUL">
-    <li id="navbarLI"><a id="navbarA" href="changelog.html">CHANGELOG</a></li>
-    <li style="float:right" id="navbarLI"><a id="navbarA" href="index.html">HOME</a></li>
-    <li id="navbarLI"><a id="navbarA" href="downloads.html">DOWNLOADS</a></li>
-    <li style="float:right"id="navbarLI"><a id="navbarA" href="login.html">ADMIN LOGIN</a><li>
+  <ul class="navbarUL">
+    <li class="navbarLI"><a class="navbarA" href="changelog.html">CHANGELOG</a></li>
+    <li style="float:right" class="navbarLI"><a class="navbarA" href="index.html">HOME</a></li>
+    <li class="navbarLI"><a class="navbarA" href="downloads.html">DOWNLOADS</a></li>
+    <li style="float:right" class="navbarLI"><a class="navbarA" href="login.html">ADMIN LOGIN</a><li>
+    <li class="navbarLI"><a class="navbarA" href="loaders.html">LOADERS</a></li>
   </ul>
 <h3>Please sign in to your Mandarin Technologies web account:</h3>
 <br> <input id="usrname" placeholder="Username"></input> <br> <br>
 <input id="psword" placeholder="Password"></input> <br> <br>
 <button onclick="submitLogin()">Submit</button>
 <h4 id="loginPlaceholder">Your login info is incorrect. Please try again.</h4>
-<div id="loader"><iframe src="loader/loader.html"></div>
+<div id="loader"><iframe src="loaders/spinningRainbow/loader.html"></iframe></div>
 
 </body>
 </html>
