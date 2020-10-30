@@ -12,6 +12,9 @@ def desktop():
 	if appToOpen == "SunriverCam":
 		SunriverCam()"""
 	msgbox("No apps avalible, sorry. Check back later",'Desktop')
+	msgbox("We are working hard to add new apps to MandarinOS for Mac, in the meanwhile check out our Windows version with tons more cool features for you to use!","Desktop")
 
 msgbox("Welcome to Mandarin OS, your system is starting!","System Boot Wizard")
 desktop()
+
+# GokeyCoder was here!
