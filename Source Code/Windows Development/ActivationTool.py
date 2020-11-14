@@ -1,6 +1,8 @@
 import easygui
 import pickle
 import elevate
+import sentry_sdk
+sentry_sdk.init("https://7cba374024ca45eb9b4fdef818721b52@o464050.ingest.sentry.io/5516881", traces_sample_rate=1.0)
 elevate.elevate()
 def activate():
     setup = False

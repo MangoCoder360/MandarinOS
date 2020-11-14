@@ -4,6 +4,8 @@ import easygui
 import pickle
 import time
 import subprocess
+import sentry_sdk
+sentry_sdk.init("https://7cba374024ca45eb9b4fdef818721b52@o464050.ingest.sentry.io/5516881", traces_sample_rate=1.0)
 client = pymongo.MongoClient("mongodb+srv://MangoCoder360:mangomongo321@cluster0.vckzv.mongodb.net/WindowsApp?retryWrites=true&w=majority")
 db = client["WindowsApp"]
 coll = db["Users"]
