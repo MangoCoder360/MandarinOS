@@ -10,6 +10,9 @@ You can reach Mandarin Technologies support at [support@mandarintechnologies.ml]
 You can reach Reuben (Lead developer/CEO) at [mangocoder360@mandarintechnologies.ml](mailto:mangocoder360@mandarintechnologies.ml?body=Have%20a%20message%20for%20Reuben%3F%20Write%20it%20here!)
 
 # News!
+
+ERROR: Cannot init sentry! The program may not work properly!
+
 Make sure you follow Mandarin Technologies on Twitter!  https://twitter.com/Mandarin897
 
 Check out our website!  https://www.mandarintechnologies.ml
