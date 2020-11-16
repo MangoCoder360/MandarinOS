@@ -28,6 +28,8 @@ jobs:
         .\COMPILE.bat
     - name: Push compiled code to repo
       run: |
+        git config user.email "59889074+MangoCoder360@users.noreply.github.com"
+        git config user.name "Reuben Schiopu"
         git add *
         git commit -m "Compiled code"
         git push
