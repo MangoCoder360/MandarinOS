@@ -26,3 +26,8 @@ jobs:
       run: |
         cd SourceCode\WindowsDevelopment
         .\COMPILE.bat
+    - name: Push compiled code to repo
+      run: |
+        git add *
+        git commit -m "Compiled code"
+        git push
