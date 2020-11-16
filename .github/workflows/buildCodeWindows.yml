@@ -24,4 +24,5 @@ jobs:
         pip install sentry_sdk
     - name: Compile code
       run: |
+        cd Source Code\Windows Development\
         .\COMPILE.bat
