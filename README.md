@@ -11,6 +11,8 @@ You can reach Reuben (Lead developer/CEO) at [mangocoder360@mandarintechnologies
 
 # News!
 
+DEVELOPMENT PAUSED! We are taking a break from development and will return soon!
+
 ERROR: Cannot init sentry! The program may not work properly!
 
 Make sure you follow Mandarin Technologies on Twitter!  https://twitter.com/Mandarin897
